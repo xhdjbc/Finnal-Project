@@ -288,6 +288,11 @@ public class ScientificCalculator {
 		System.out.println();
 	}
 
+	/**
+	 * to show the user which base user want to choice in logarithm
+	 * 
+	 * @return user's choice (base)
+	 */
 	static int getuserChoiceInLogarithm() {
 		userInput = new Scanner(System.in);
 		System.out.println("1. Base on 10");
