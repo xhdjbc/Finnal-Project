@@ -57,6 +57,11 @@ public class ScientificCalculator {
 			permute(Array, 0);
 		} else if (choice == 3) {
 			// combination
+			for (int i = 0; i < Array.length; i++) {
+
+				System.out.println("Enter a number as an integer: ");
+				Array[i] = userInput.nextInt();
+			}
 			System.out.println("This array's combination is:");
 			Arrays.sort(Array);
 			combine(Array);
